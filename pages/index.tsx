@@ -43,10 +43,10 @@ const data = [
 export default function index() {
   return (
     <section className="grid max-w-6xl gap-10 px-6 mx-auto mt-20 lg:px-0 lg:grid-cols-2">
-      <div className="sticky flex flex-col lg:justify-between  lg:min-h-[80vh] top-20 self-start">
+      <div className="sticky z-10 flex flex-col lg:justify-between  lg:min-h-[80vh] top-20 self-start">
         <div className="">
           <div>
-            <h1 className="text-4xl font-extrabold tracking-tight lg:text-6xl text-accent100 ">
+            <h1 className="text-5xl font-extrabold tracking-tight lg:text-6xl text-accent100 ">
               Adeyemi
             </h1>
             <h1 className="mt-4 text-xl font-bold lg:text-2xl text-accent100 ">
@@ -56,8 +56,9 @@ export default function index() {
           <p className="max-w-md mt-12 text-sm leading-7 text-accent200">
             I&apos;m a software engineer. I create interactive web experiences
             <br className="hidden lg:block" />
-            using <span className="text-accent100">frontend technology.</span> I
-            am interested in user experience, accessibility,{" "}
+            {} using{" "}
+            <span className="text-accent100"> frontend technology.</span> I am
+            interested in user experience, accessibility,{" "}
             <span className="text-accent100">design systems</span>, and{" "}
             <span className="text-accent100">web animations.</span>
           </p>
@@ -97,7 +98,7 @@ export default function index() {
         </div>
       </div>
 
-      <aside className="relative z-20 flex flex-col min-h-screen mb-24 bg-secondary lg:gap-3">
+      <aside className="relative bg-[#090f1e] z-40 flex flex-col min-h-screen mb-24  lg:gap-3">
         <h1 className="font-semibold text-accent100 lg:hidden my-14 mb-7 ">
           My Projects
         </h1>
