@@ -43,7 +43,7 @@ const data = [
 export default function index() {
   return (
     <section className="grid max-w-6xl gap-10 px-6 mx-auto mt-20 lg:px-0 lg:grid-cols-2">
-      <div className="sticky z-10 flex flex-col lg:justify-between  lg:min-h-[80vh] top-20 self-start">
+      <div className="lg:sticky z-10 flex flex-col lg:justify-between  lg:min-h-[80vh] top-20 self-start">
         <div className="">
           <div>
             <h1 className="text-5xl font-extrabold tracking-tight lg:text-6xl text-accent100 ">
