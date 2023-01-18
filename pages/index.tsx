@@ -46,16 +46,16 @@ export default function index() {
       <div className="sticky flex flex-col lg:justify-between  lg:min-h-[80vh] top-20 self-start">
         <div className="">
           <div>
-            <h1 className="text-6xl font-extrabold tracking-tight text-accent100 ">
+            <h1 className="text-4xl font-extrabold tracking-tight lg:text-6xl text-accent100 ">
               Adeyemi
             </h1>
-            <h1 className="mt-4 text-2xl font-bold text-accent100 ">
+            <h1 className="mt-4 text-xl font-bold lg:text-2xl text-accent100 ">
               Frontend Engineer at Donah.
             </h1>
           </div>
           <p className="max-w-md mt-12 text-sm leading-7 text-accent200">
             I&apos;m a software engineer. I create interactive web experiences
-            <br />
+            <br className="hidden lg:block" />
             using <span className="text-accent100">frontend technology.</span> I
             am interested in user experience, accessibility,{" "}
             <span className="text-accent100">design systems</span>, and{" "}
@@ -80,7 +80,7 @@ export default function index() {
           </div>
         </div>
 
-        <div className="flex gap-3 mt-10 text-sm text-accent100 lg:mt-0">
+        <div className="flex gap-3 mt-10 text-sm text-accent200 lg:mt-0">
           <div className="flex items-center gap-1">
             <AiFillGithub className="text-xl text-accent200" />
             <span>Github</span>
@@ -104,7 +104,7 @@ export default function index() {
         {data.map((item: any, idx) => (
           <div
             key={item.id}
-            className="flex hover:scale-105 transition-transform cursor-pointer flex-col gap-3 p-10 lg:rounded-md  shadow-xl border-accent300 bg-primary  border border-[#2C384B]"
+            className="flex lg:hover:scale-105 transition-transform cursor-pointer flex-col gap-3 p-10 lg:rounded-md  shadow-xl border-accent300 bg-primary  border border-[#2C384B]"
           >
             <div className="grid gap-1.5">
               <h1 className="text-2xl text-accent100">{item.name}</h1>
