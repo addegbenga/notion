@@ -53,7 +53,7 @@ export default function index() {
               Frontend Engineer at Donah.
             </h1>
           </div>
-          <p className="max-w-md mt-12 text-sm leading-7 text-accent200">
+          <p className="max-w-md mt-12 leading-7 lg:text-sm text-accent200">
             I&apos;m a software engineer. I create interactive web experiences
             <br className="hidden lg:block" />
             {} using{" "}
@@ -81,7 +81,7 @@ export default function index() {
           </div>
         </div>
 
-        <div className="flex gap-3 mt-10 text-sm text-accent200 lg:mt-0">
+        <div className="flex gap-3 mt-10 lg:text-sm text-accent200 lg:mt-0">
           <div className="flex items-center gap-1">
             <AiFillGithub className="text-xl text-accent200" />
             <span>Github</span>
