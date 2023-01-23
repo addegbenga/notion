@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { Fragment } from "react";
 import { AiFillGithub, AiFillGitlab, AiOutlineTwitter } from "react-icons/ai";
 
@@ -6,36 +7,35 @@ const data = [
     name: "Frythub",
     tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
     text: "Car procurement platform",
+    url: "https://frythub.com/",
     id: 2157357,
-  },
-  {
-    name: "Beamsafe",
-    tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
-    text: "Financial application ",
-    id: 2157,
   },
   {
     name: "Camlyst",
     tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
     text: "Leasing platform for canadian citizen ",
+    url: "https://camlyst-web.vercel.app",
     id: 263657,
   },
   {
     name: "Donah",
     tech: ["NextJS", "TYPESCRIPT", "GSAP"],
     text: "Donah Agency landing page",
-    id: 213636,
+    url: "https://donahapp-mgtb.vercel.app/",
+    id: 21333443636,
   },
   {
-    name: "Date Picker",
-    tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
-    text: "simple date picker",
-    id: 2336648,
+    name: "Reliance cart",
+    tech: ["NextJS", "TYPESCRIPT", "GSAP"],
+    text: "Landing page for health and grocery delivery service",
+    url: "https://reliancecart.ca/",
+    id: 21322636,
   },
   {
-    name: "Context UI kit",
+    name: "Reliance Cart",
     tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
-    text: "simple Lib",
+    url: "https://reliancecart-admin-k1za.vercel.app",
+    text: "Admin management for health and grocery delivery service",
     id: 5773357,
   },
 ];
@@ -69,35 +69,42 @@ export default function index() {
             <div className="w-[5rem]  bg-accent200 h-0.5"></div>
             <span className="ml-2 text-xs">WORK</span>
           </div>
-          <div className="flex items-center text-sm text-accent200 ">
-            <span className="text-xs m-1 h-2.5  bg-accent100 w-2.5 rounded-full"></span>
-            <div className="w-[3rem]  bg-accent200  h-0.5"></div>
-            <span className="ml-2 text-xs">ARTICLES</span>
-          </div>{" "}
-          <div className="flex items-center text-sm text-accent200 ">
-            <span className="text-xs m-1 h-2.5  bg-accent100 w-2.5 rounded-full"></span>
-            <div className="w-[3rem]  bg-accent200 h-0.5"></div>
-            <span className="ml-2 text-xs">LINKEDIN</span>
-          </div>
+          <Link href="https://adeyemi.hashnode.dev/" target="_blank">
+            <div className="flex items-center text-sm text-accent200 ">
+              <span className="text-xs m-1 h-2.5  bg-accent100 w-2.5 rounded-full"></span>
+              <div className="w-[3rem]  bg-accent200  h-0.5"></div>
+              <span className="ml-2 text-xs">ARTICLES</span>
+            </div>{" "}
+          </Link>
+          <Link href="https://www.linkedin.com/in/addegbenga/ " target="_blank">
+            <div className="flex items-center text-sm text-accent200 ">
+              <span className="text-xs m-1 h-2.5  bg-accent100 w-2.5 rounded-full"></span>
+              <div className="w-[3rem]  bg-accent200 h-0.5"></div>
+              <span className="ml-2 text-xs">LINKEDIN</span>
+            </div>
+          </Link>
         </div>
-
         <div className="flex gap-3 mt-10 lg:text-sm text-accent200 lg:mt-0">
-          <div className="flex items-center gap-1">
-            <AiFillGithub className="text-xl text-accent200" />
-            <span>Github</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <AiOutlineTwitter className="text-xl text-accent200" />{" "}
-            <span className="text-sm">Twitter</span>
-          </div>
-
-          <div className="flex items-center gap-1">
-            <AiFillGitlab className="text-xl text-accent200" />
-            <span>Gitlab</span>
-          </div>
+          <Link href="https://gitlab.com/addegbenga" target="_blank">
+            <div className="flex items-center gap-1">
+              <AiFillGithub className="text-xl text-accent200" />
+              <span>Github</span>
+            </div>
+          </Link>
+          <Link href="https://twitter.com/AddeGbenga" target="_blank">
+            <div className="flex items-center gap-1">
+              <AiOutlineTwitter className="text-xl text-accent200" />{" "}
+              <span className="text-sm">Twitter</span>
+            </div>
+          </Link>
+          <Link href="https://github.com/addegbenga" target="_blank">
+            <div className="flex items-center gap-1">
+              <AiFillGitlab className="text-xl text-accent200" />
+              <span>Gitlab</span>
+            </div>
+          </Link>
         </div>
       </div>
-
       <aside className="relative bg-[#090f1e] z-40 flex flex-col min-h-screen mb-24  lg:gap-3">
         <h1 className="font-semibold text-accent100 lg:hidden my-14 mb-7 ">
           My Projects
@@ -124,13 +131,15 @@ export default function index() {
             </div>
             <div>
               <p className="text-sm font-medium text-accent200">{item.text}</p>
-              <div className="flex gap-1 mt-4 text-xs">
-                🚀
-                <span className="flex items-center gap-1 text-accent100">
-                  LIVE
-                </span>
-                {/* <span>CODE</span> */}
-              </div>
+              <Link href={item.url} target="_blank">
+                <div className="flex gap-1 mt-4 text-xs">
+                  🚀
+                  <span className="flex items-center gap-1 text-accent100">
+                    LIVE
+                  </span>
+                  {/* <span>CODE</span> */}
+                </div>
+              </Link>
             </div>
           </div>
         ))}
