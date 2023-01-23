@@ -148,7 +148,7 @@ export default function index() {
                     {item.text}
                   </p>
 
-                  <div className="flex gap-1 mt-4 text-xs">
+                  <div className="flex gap-1 mt-4 text-xs ">
                     🚀
                     <span className="flex items-center gap-1 text-accent100">
                       LIVE
