@@ -45,7 +45,7 @@ export default function index() {
   return (
     <>
       <Head>
-        <title>Journey📔</title>
+        <title>Portfolio</title>
         <meta
           property="og:title"
           content="Little Journal about me"
