@@ -118,7 +118,7 @@ export default function index() {
             </Link>
           </div>
         </div>
-        <aside className="relative bg-[#090f1e] z-40 flex flex-col min-h-screen mb-24  lg:gap-3">
+        <aside className="relative bg-[#090f1e] z-40 flex flex-col min-h-screen mb-24  gap-3">
           <h1 className="font-semibold text-accent100 lg:hidden my-14 mb-7 ">
             My Projects
           </h1>
