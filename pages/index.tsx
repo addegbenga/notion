@@ -127,26 +127,27 @@ export default function index() {
               key={item.id}
               className="flex lg:hover:scale-105 transition-transform cursor-pointer flex-col gap-3 p-10 lg:rounded-md  shadow-xl border-accent300 bg-primary  border border-[#2C384B]"
             >
-              <div className="grid gap-1.5">
-                <h1 className="text-2xl text-accent100">{item.name}</h1>
-                <div className="flex items-center text-xs text-accent150 ">
-                  {item.tech.map((prop: any, index: any) => (
-                    <Fragment key={index + "yyyww"}>
-                      <span>
-                        {prop}
-                        {index !== item.tech.length - 1 && (
-                          <span className="mx-1">+</span>
-                        )}
-                      </span>
-                    </Fragment>
-                  ))}
+              <Link passHref href={item.url} target="_blank">
+                <div className="grid gap-1.5">
+                  <h1 className="text-2xl text-accent100">{item.name}</h1>
+                  <div className="flex items-center text-xs text-accent150 ">
+                    {item.tech.map((prop: any, index: any) => (
+                      <Fragment key={index + "yyyww"}>
+                        <span>
+                          {prop}
+                          {index !== item.tech.length - 1 && (
+                            <span className="mx-1">+</span>
+                          )}
+                        </span>
+                      </Fragment>
+                    ))}
+                  </div>
                 </div>
-              </div>
-              <div>
-                <p className="text-sm font-medium text-accent200">
-                  {item.text}
-                </p>
-                <Link href={item.url} target="_blank">
+                <div>
+                  <p className="text-sm font-medium text-accent200">
+                    {item.text}
+                  </p>
+
                   <div className="flex gap-1 mt-4 text-xs">
                     🚀
                     <span className="flex items-center gap-1 text-accent100">
@@ -154,8 +155,8 @@ export default function index() {
                     </span>
                     {/* <span>CODE</span> */}
                   </div>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
           ))}
         </aside>
