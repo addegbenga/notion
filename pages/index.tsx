@@ -12,6 +12,13 @@ const data = [
     id: 2157357,
   },
   {
+    name: "Excel Renderer",
+    tech: ["REACTJS", "TYPESCRIPT", "VITE"],
+    text: "Simple lib to render excel data on a table ",
+    url: "https://render-excel-to-table.vercel.app/",
+    id: 2622333657,
+  },
+  {
     name: "Camlyst",
     tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
     text: "Leasing platform for canadian citizen ",
@@ -125,7 +132,7 @@ export default function index() {
           {data.map((item: any, idx) => (
             <div
               key={item.id}
-              className="flex lg:hover:scale-105 transition-transform cursor-pointer flex-col gap-3 p-10 lg:rounded-md  shadow-xl border-accent300 bg-primary  border border-[#2C384B]"
+              className="flex lg:hover:scale-100 transition-transform cursor-pointer flex-col gap-3 p-10 lg:rounded-md  shadow-xl border-accent300 bg-primary  border border-[#2C384B]"
             >
               <Link passHref href={item.url} target="_blank">
                 <div className="grid gap-1.5">
