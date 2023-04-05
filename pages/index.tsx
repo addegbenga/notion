@@ -104,8 +104,8 @@ export default function index() {
               </div>
             </Link>
           </div>
-          <div className="flex gap-3 mt-10 lg:text-sm text-accent200 lg:mt-0">
-            <Link href="https://gitlab.com/addegbenga" target="_blank">
+          <div className="flex items-center gap-3 mt-10 lg:text-sm text-accent200 lg:mt-0">
+            <Link href="https://github.com/addegbenga" target="_blank">
               <div className="flex items-center gap-1">
                 <AiFillGithub className="text-xl text-accent200" />
                 <span>Github</span>
@@ -117,7 +117,7 @@ export default function index() {
                 <span className="text-sm">Twitter</span>
               </div>
             </Link>
-            <Link href="https://github.com/addegbenga" target="_blank">
+            <Link href="https://gitlab.com/addegbenga" target="_blank">
               <div className="flex items-center gap-1">
                 <AiFillGitlab className="text-xl text-accent200" />
                 <span>Gitlab</span>
