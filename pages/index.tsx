@@ -68,13 +68,17 @@ export default function index() {
               </h1>
             </div>
             <p className="max-w-md mt-12 leading-7 lg:text-sm text-accent200">
-              I&apos;m a software engineer. I create interactive web experiences
+              As a skilled{" "}
+              <span className="text-accent100">
+                frontend software engineer,{" "}
+              </span>{" "}
+              I specialize in
               <br className="hidden lg:block" />
-              {} using{" "}
-              <span className="text-accent100"> frontend technology.</span> I am
-              interested in user experience, accessibility,{" "}
-              <span className="text-accent100">design systems</span>, and{" "}
-              <span className="text-accent100">web animations.</span>
+              creating interactive and visually appealing web experiences
+              <br /> that prioritize {""}
+              <span className="text-accent100">
+                user experience and accessibility.
+              </span>
             </p>
           </div>
           <div className="hidden gap-4 text-xs font-light lg:grid">
