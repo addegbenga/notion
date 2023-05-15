@@ -37,10 +37,10 @@ const data = [
 
 const libs = [
   {
-    name: "Excel Renderer",
+    name: "React File Upload",
     tech: ["REACTJS", "TYPESCRIPT", "VITE"],
-    text: "Simple lib to render excel data on a table ",
-    url: "https://render-excel-to-table.vercel.app/",
+    text: "Simple react hook to handle file upload ",
+    url: "https://www.npmjs.com/package/dex-react-file-upload",
     id: 2622333657,
   },
 ];
