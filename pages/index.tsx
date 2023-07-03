@@ -10,6 +10,31 @@ const data = [
     text: "Car procurement platform",
     url: "https://frythub-app.vercel.app/",
     id: 2157357,
+    status: "Live",
+  },
+  {
+    name: "SimpliiExchange",
+    tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
+    text: "Exchange Platform",
+    url: "https://simpliiexchange.com/",
+    id: 21557,
+    status: "In Progress",
+  },
+  {
+    name: "Simpliiassess",
+    tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
+    text: "Accessment Platform Landing Page()",
+    url: "https://simplyassess.io/",
+    id: 21557,
+    status: "In Progresss",
+  },
+  {
+    name: "Prozmart",
+    tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
+    text: "Talent Hiring platform",
+    url: "https://prozmart-dev.vercel.app",
+    id: 21557,
+    status: "In Progress",
   },
 
   {
@@ -18,6 +43,7 @@ const data = [
     text: "Leasing platform for canadian citizen ",
     url: "https://camlyst-web.vercel.app",
     id: 263657,
+    status: "In Progress",
   },
   {
     name: "Donah",
@@ -25,6 +51,7 @@ const data = [
     text: "Donah Agency landing page",
     url: "https://donahapp-mgtb.vercel.app/",
     id: 21333443636,
+    status: "Live",
   },
   {
     name: "Reliance cart",
@@ -32,6 +59,7 @@ const data = [
     text: "Landing page for health and grocery delivery service",
     url: "https://reliancecart.ca/",
     id: 21322636,
+    status: "Live",
   },
 ];
 
@@ -49,12 +77,8 @@ export default function index() {
   return (
     <>
       <Head>
-        <title>Portfolio</title>
-        <meta
-          property="og:title"
-          content="Little Journal about me"
-          key="Portfolio"
-        />
+        <title>Adeyemi Portfolio</title>
+        <meta name="description" content="About Me" />
       </Head>
       <section className="grid max-w-6xl gap-10 px-6 mx-auto mt-20 lg:px-0 lg:grid-cols-2">
         <div className="lg:sticky z-10 flex flex-col lg:justify-between  lg:min-h-[80vh] top-20 self-start">
@@ -64,7 +88,7 @@ export default function index() {
                 Adeyemi
               </h1>
               <h1 className="mt-4 text-xl font-bold lg:text-2xl text-accent100 ">
-                Frontend Engineer at Donah.
+                Frontend Engineer @Donahapp.
               </h1>
             </div>
             <p className="max-w-md mt-12 leading-7 lg:text-sm text-accent200">
@@ -131,7 +155,7 @@ export default function index() {
             My Projects
           </h1>
           <>
-            {data.map((item: any, idx) => (
+            {data.map((item, idx) => (
               <div
                 key={item.id}
                 className="flex lg:hover:scale-100 transition-transform cursor-pointer flex-col gap-3 p-10 lg:rounded-md  shadow-xl border-accent300 bg-primary  border border-[#2C384B]"
@@ -159,8 +183,8 @@ export default function index() {
 
                     <div className="flex gap-1 mt-4 text-xs ">
                       🚀
-                      <span className="flex items-center gap-1 text-accent100">
-                        LIVE
+                      <span className="flex items-center gap-1 uppercase text-accent100">
+                        {item.status}
                       </span>
                       {/* <span>CODE</span> */}
                     </div>
