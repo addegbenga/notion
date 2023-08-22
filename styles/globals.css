@@ -3,15 +3,15 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-  --dark-primary: white
+  --dark-primary: rgba(62, 55, 83, 0.443);
   --dark-secondary: white;
   --dark-accent300: #566276;
-  --dark-accent200: #616d82;
-  --dark-accent100: rgb(33, 0, 248);
+  --dark-accent200: #909cb1;
+  --dark-accent100: rgb(237, 236, 239);
   --dark-accent150: #cfcece;
 }
 
 body {
-  background-color: var(--dark-secondary);
+  background-color: black;
   font-family: "Inter", sans-serif;
 }

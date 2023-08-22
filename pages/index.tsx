@@ -80,7 +80,7 @@ export default function index() {
         <title>Adeyemi Portfolio</title>
         <meta name="description" content="About Me" />
       </Head>
-      <section className="grid max-w-6xl gap-10 px-6 mx-auto mt-20 lg:px-0 lg:grid-cols-2">
+      <section className="grid bg-black max-w-6xl gap-10 px-6 mx-auto mt-20 lg:px-0 lg:grid-cols-2">
         <div className="lg:sticky z-10 flex flex-col lg:justify-between  lg:min-h-[80vh] top-20 self-start">
           <div className="">
             <div>
