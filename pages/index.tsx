@@ -31,7 +31,7 @@ const data = [
   {
     name: "Simpliiassess",
     tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
-    text: "Accessment Platform Landing Page",
+    text: "Accessment Platform Landing Page()",
     url: "https://simplyassess.io/",
     id: 21557,
     status: "In Progresss",
@@ -80,7 +80,7 @@ export default function index() {
         <title>Adeyemi Portfolio</title>
         <meta name="description" content="About Me" />
       </Head>
-      <section className="grid bg-black max-w-6xl gap-10 px-6 mx-auto mt-20 lg:px-0 lg:grid-cols-2">
+      <section className="grid max-w-6xl gap-10 px-6 mx-auto mt-20 lg:px-0 lg:grid-cols-2">
         <div className="lg:sticky z-10 flex flex-col lg:justify-between  lg:min-h-[80vh] top-20 self-start">
           <div className="">
             <div>
@@ -150,7 +150,7 @@ export default function index() {
             </Link>
           </div>
         </div>
-        <aside className="relative z-40 flex flex-col min-h-screen gap-3 mb-24">
+        <aside className="relative z-40 bg-[#090f1e]  flex flex-col min-h-screen gap-3 mb-24">
           <h1 className="font-semibold text-accent100 lg:hidden my-14 mb-7 ">
             My Projects
           </h1>

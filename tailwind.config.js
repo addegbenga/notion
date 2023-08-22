@@ -8,12 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "var(--dark-primary)",
-        secondary: "var(--dark-secondary)",
-        accent300: "var(--dark-accent300)",
-        accent200: "var(--dark-accent200)",
-        accent150: "var(--dark-accent150)",
-        accent100: "var(--dark-accent100)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        accent300: "var(--accent300)",
+        accent200: "var(--accent200)",
+        accent150: "var(--accent150)",
+        accent100: "var(--accent100)",
       },
     },
   },
