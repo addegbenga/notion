@@ -3,19 +3,15 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-  --primary: #192435;
-  --secondary: #090f1e;
-  --accent300: #566276;
-  --accent200: #616d82;
-  --accent100: rgb(243, 243, 243);
-  --accent150: #cfcece;
-  --bgPrimary:''
-  --bgSecondary:''
-  --bgAccent100:''
+  --dark-primary: white
+  --dark-secondary: white;
+  --dark-accent300: #566276;
+  --dark-accent200: #616d82;
+  --dark-accent100: rgb(33, 0, 248);
+  --dark-accent150: #cfcece;
 }
 
-
 body {
-  background-color: var(--secondary);
+  background-color: var(--dark-secondary);
   font-family: "Inter", sans-serif;
 }

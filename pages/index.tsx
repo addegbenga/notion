@@ -21,9 +21,17 @@ const data = [
     status: "In Progress",
   },
   {
+    name: "Reliance cart",
+    tech: ["NextJS", "TYPESCRIPT"],
+    text: "Landing page for health and grocery delivery service",
+    url: "https://relianceshopper.com/",
+    id: 21322636,
+    status: "Live",
+  },
+  {
     name: "Simpliiassess",
     tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
-    text: "Accessment Platform Landing Page()",
+    text: "Accessment Platform Landing Page",
     url: "https://simplyassess.io/",
     id: 21557,
     status: "In Progresss",
@@ -51,14 +59,6 @@ const data = [
     text: "Donah Agency landing page",
     url: "https://donahapp-mgtb.vercel.app/",
     id: 21333443636,
-    status: "Live",
-  },
-  {
-    name: "Reliance cart",
-    tech: ["NextJS", "TYPESCRIPT"],
-    text: "Landing page for health and grocery delivery service",
-    url: "https://reliancecart.ca/",
-    id: 21322636,
     status: "Live",
   },
 ];
@@ -150,7 +150,7 @@ export default function index() {
             </Link>
           </div>
         </div>
-        <aside className="relative bg-[#090f1e] z-40 flex flex-col min-h-screen mb-24  gap-3">
+        <aside className="relative z-40 flex flex-col min-h-screen gap-3 mb-24">
           <h1 className="font-semibold text-accent100 lg:hidden my-14 mb-7 ">
             My Projects
           </h1>
