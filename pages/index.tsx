@@ -88,7 +88,7 @@ export default function index() {
                 Adeyemi
               </h1>
               <h1 className="mt-4 text-xl font-bold lg:text-2xl text-accent100 ">
-                Frontend Engineer @Donahapp.
+                Frontend Engineer.
               </h1>
             </div>
             <p className="max-w-md mt-12 leading-7 lg:text-sm text-accent200">
