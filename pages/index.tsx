@@ -8,7 +8,7 @@ const data = [
     name: "Frythub",
     tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
     text: "Car procurement platform",
-    url: "https://frythub-strapi-web.vercel.app/",
+    url: "https://frythub.com",
     id: 2157357,
     status: "Live",
   },
