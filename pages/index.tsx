@@ -12,6 +12,23 @@ const data = [
     id: 2157357,
     status: "Live",
   },
+    {
+    name: "Simpliiassess",
+    tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
+    text: "Accessment Platform Landing Page()",
+    url: "https://simplyassess.io/",
+    id: 21557,
+    status: "Live",
+  },
+    {
+    name: "Prozmart",
+    tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
+    text: "Talent Hiring platform",
+    url: "https://prozmart-dev.vercel.app",
+    id: 21557,
+    status: "In Progress",
+  },
+
   {
     name: "SimpliiExchange",
     tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
@@ -27,22 +44,6 @@ const data = [
     url: "https://relianceshopper.com/",
     id: 21322636,
     status: "Live",
-  },
-  {
-    name: "Simpliiassess",
-    tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
-    text: "Accessment Platform Landing Page()",
-    url: "https://simplyassess.io/",
-    id: 21557,
-    status: "In Progresss",
-  },
-  {
-    name: "Prozmart",
-    tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
-    text: "Talent Hiring platform",
-    url: "https://prozmart-dev.vercel.app",
-    id: 21557,
-    status: "In Progress",
   },
 
   {
