@@ -15,7 +15,7 @@ const data = [
     {
     name: "Simpliiassess",
     tech: ["NextJS", "TYPESCRIPT", "REACT-QUERY"],
-    text: "Accessment Platform Landing Page()",
+    text: "Accessment Platform",
     url: "https://simplyassess.io/",
     id: 21557,
     status: "Live",
